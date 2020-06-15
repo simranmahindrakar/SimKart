@@ -3,7 +3,7 @@ html{
     box-sizing: border-box;
 }
 body{
-    font-size: 1.6 rem;
+    font-size: 2 rem;
     font-family: Helvetica;
     margin: 0;  /*we want default margin*/
     height: 100vh;
@@ -24,14 +24,22 @@ body{
     color: white;
     display: flex;
     justify-content: space-between;   /*space between brand name and sign-in*/
+    align-items: center;   /*center of header space*/
+    padding: 0.5rem;
 }
  .brand a{                           /*change color of linked text */
     color: white;
     font-size: 2.5rem;
     font-weight: bold;
+    text-decoration: none; 
 }
 .header-links a{
     color: white;
+    text-decoration: none;
+    font-size: 1.8rem;
+}
+.header-links a:hover {
+    color: #b88c8c;
 }
 .main{
     grid-area: main;
@@ -41,5 +49,7 @@ body{
     background-color: #ffb0b0;
     color: white;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.8rem;
 }
