@@ -117,6 +117,7 @@ a:hover{
 }
 .sidebar{
     position: fixed;
+    transition: all 0.5se;    /*will create animation to slide bar smoothly*/
     transform: translateX(-30rem);  /*Keep sidebar on the left and out of the screen*/
     width: 30rem;
     background-color: #ffe1e1;
